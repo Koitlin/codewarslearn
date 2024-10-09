@@ -4,3 +4,4 @@
 select n, (
     (n / 2) * (n - n / 2)
 ) as res from perpendicular
+//Done
