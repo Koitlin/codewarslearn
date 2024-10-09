@@ -6,3 +6,4 @@ function contamination(text, char) {
     }
     return res;
 }
+//Done
