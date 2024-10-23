@@ -14,3 +14,9 @@ $$ language plpgsql;
 select x, n, get_seq(x, n) as res
 from counter
 order by x, n
+
+/*
+select x, n, array(select generate_series(x, x*n, x)) as res
+from counter
+order by x, n
+*/
