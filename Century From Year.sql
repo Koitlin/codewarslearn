@@ -1,0 +1,1 @@
+select ceil(yr / 100.0) as century from years
