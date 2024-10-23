@@ -1,0 +1,1 @@
+select distance_to_pump, mpg, fuel_left, (mpg * fuel_left >= distance_to_pump) as res from zerofuel
