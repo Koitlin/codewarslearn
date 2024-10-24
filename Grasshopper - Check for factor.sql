@@ -1,0 +1,1 @@
+select id, (mod(base, factor) = 0) as res from kata
