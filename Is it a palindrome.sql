@@ -1,0 +1,1 @@
+select str, lower(str) = reverse(lower(str)) as res from ispalindrome
