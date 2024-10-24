@@ -1,0 +1,1 @@
+select s, (replace(s, '!', '')) as res from removeexclamationmarks
